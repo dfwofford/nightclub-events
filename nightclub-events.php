@@ -3,7 +3,7 @@
  * Plugin Name: Nightclub Events Calendar
  * Description: Event management for nightclubs with repeat events, flyers, tickets, and archives.
  * Version: 0.5.0-beta
- * Author: Flex Nightclub
+ * Author: Drew Wofford
  */
 
 if (!defined('ABSPATH')) exit;

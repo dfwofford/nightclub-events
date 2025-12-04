@@ -1,5 +1,5 @@
 === Nightclub Events Calendar ===
-Contributors: dfwofford
+Contributors: drewwofford
 Tags: events, nightclub, calendar, flyers, tickets, venue, party, dj
 Requires at least: 5.0
 Tested up to: 6.4
