@@ -9,5 +9,3 @@ WordPress plugin for nightclub event management.
 - Calendar View
 - Display & Theme Settings
 - Elementor Widgets
-
-## Version 1.4.0
