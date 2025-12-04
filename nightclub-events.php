@@ -2,7 +2,7 @@
 /**
  * Plugin Name: Nightclub Events
  * Description: Event management for nightclubs with repeat events, flyers, tickets, and archives.
- * Version: 1.4.0
+ * Version: 0.5.0-beta
  * Author: Flex Nightclub
  */
 
@@ -20,7 +20,7 @@ $ncUpdateChecker->setBranch("main");
 require_once plugin_dir_path(__FILE__) . 'nc-display-settings.php';
 require_once plugin_dir_path(__FILE__) . 'nc-shortcodes.php';
 require_once plugin_dir_path(__FILE__) . 'nc-elementor.php';
-define('NC_VERSION', '1.4.0');
+define('NC_VERSION', '0.5.0-beta');
 
 class Nightclub_Events {
     
