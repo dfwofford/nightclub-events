@@ -2,25 +2,18 @@
 /**
  * Plugin Name: Nightclub Events Calendar
  * Description: Complete event management for nightclubs, bars, and venues. Features recurring events, dual flyers, tickets, guest lists, calendar view, 10+ themes, and Elementor widgets.
- * Version: 0.5.0-beta
+ * Version: 0.5.0
  * Author: Drew Wofford
+ * License: GPL-2.0-or-later
+ * License URI: https://www.gnu.org/licenses/gpl-2.0.html
  */
 
 if (!defined('ABSPATH')) exit;
-// GitHub Auto-Updates
-require_once plugin_dir_path(__FILE__) . "includes/plugin-update-checker.php";
-use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
-$ncUpdateChecker = PucFactory::buildUpdateChecker(
-    "https://github.com/dfwofford/nightclub-events/",
-    __FILE__,
-    "nightclub-events"
-);
-$ncUpdateChecker->setBranch("main");
 
 require_once plugin_dir_path(__FILE__) . 'nc-display-settings.php';
 require_once plugin_dir_path(__FILE__) . 'nc-shortcodes.php';
 require_once plugin_dir_path(__FILE__) . 'nc-elementor.php';
-define('NC_VERSION', '0.5.0-beta');
+define('NC_VERSION', '0.5.0');
 
 class Nightclub_Events {
     
