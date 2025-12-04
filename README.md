@@ -1,4 +1,4 @@
-# 🎉 Nightclub Events
+# 🎉 Nightclub Events Calendar
 
 The ultimate WordPress plugin for nightclubs, bars, venues, and event promoters. Manage events, flyers, tickets, guest lists, and more!
 
