@@ -606,7 +606,7 @@ class Nightclub_Events {
         if ($post_type !== 'nc_event') return;
         wp_enqueue_media();
         wp_enqueue_script('jquery-ui-datepicker');
-        wp_enqueue_style('jquery-ui', 'https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css');
+        wp_enqueue_style('jquery-ui');
         echo '<script>jQuery(function($){if($.fn.datepicker)$(".nc-datepicker").datepicker({dateFormat:"m/d/yy"})});</script>';
     }
     

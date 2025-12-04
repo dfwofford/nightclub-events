@@ -2,7 +2,7 @@
 Contributors: drewwofford
 Tags: events, nightclub, calendar, flyers, tickets
 Requires at least: 5.0
-Tested up to: 6.7
+Tested up to: 6.9
 Stable tag: 0.5.0
 Requires PHP: 7.4
 License: GPLv2 or later
