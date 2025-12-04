@@ -9,6 +9,16 @@
  */
 
 if (!defined('ABSPATH')) exit;
+// GitHub Auto-Updates
+require_once plugin_dir_path(__FILE__) . "includes/plugin-update-checker.php";
+use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
+$ncUpdateChecker = PucFactory::buildUpdateChecker(
+    "https://github.com/dfwofford/nightclub-events/",
+    __FILE__,
+    "nightclub-events"
+);
+$ncUpdateChecker->setBranch("main");
+$ncUpdateChecker->getVcsApi()->enableReleaseAssets();
 
 require_once plugin_dir_path(__FILE__) . 'nc-display-settings.php';
 require_once plugin_dir_path(__FILE__) . 'nc-shortcodes.php';
