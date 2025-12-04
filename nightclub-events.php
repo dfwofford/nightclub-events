@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Nightclub Events Calendar
- * Description: Event management for nightclubs with repeat events, flyers, tickets, and archives.
+ * Description: Complete event management for nightclubs, bars, and venues. Features recurring events, dual flyers, tickets, guest lists, calendar view, 10+ themes, and Elementor widgets.
  * Version: 0.5.0-beta
  * Author: Drew Wofford
  */
